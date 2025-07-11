@@ -72,3 +72,54 @@ height: 328px;
 border-radius: 48px;
 
 }
+/* productive section styles */
+
+.raleway-uniquifier2{
+  font-weight: bold;
+  font-size: 38px;
+  height: auto;
+  font-family: "Raleway", sans-serif;
+  /* font-optical-sizing: auto; */
+  margin-top: 70px;
+  
+  
+}
+
+.productivesection{
+background-color: rgba(78, 71, 255, 0.1);
+margin: 0 auto;
+border-radius: 24px;
+padding: 80px 50px;
+width: 1140px;
+height: 306px;
+margin-top: 50px;
+} 
+
+.productivesection h2 {
+  font-size: 24px;
+  font-weight: normal;
+  margin-bottom: 30px;
+}
+
+.productivesection h2 {
+  font-weight: bold;
+  color: black;
+}
+
+.stats {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.stat h3 {
+  margin-top: 40px;
+  font-size: 80px;
+  color: #2e2eff;
+  margin: 0;
+}
+
+.stat p {
+  margin-top: 20px;
+  color: gray;
+}
