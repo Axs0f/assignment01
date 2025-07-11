@@ -123,3 +123,50 @@ margin-top: 50px;
   margin-top: 20px;
   color: gray;
 }
+/* feedback section */
+.heading-input {
+  display: flex;
+width: 1140px;
+height: 632px;
+margin: 0 auto;
+gap: 250px;
+padding: 0px 70px;
+}
+.heading-input input{
+
+  display: block;
+  
+}
+.raleway-uniquifier3{
+  font-weight: bold;
+  font-size: 97px;
+}
+.margin-top{
+margin-top: 50px;
+
+}
+.boxstyle{
+  border: 1px solid ;
+box-shadow: whitesmoke;
+border-radius: 8px;
+margin-right: 0%;
+padding: 15px 65px;
+
+}
+#message{
+  border: 1px solid;
+  box-shadow: whitesmoke;
+  border-radius: 8px;
+  padding: 15px 45px;
+}
+.btn-primary1{
+  background-color: #4E47FF;
+border-radius: 8px;
+padding: 10px 108px;
+border: none;
+color: white;
+font-size: 15px;
+font-weight: 600px;
+cursor: pointer;
+margin-top: 0%;
+}
