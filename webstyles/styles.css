@@ -159,7 +159,7 @@ margin-top: 50px;
 }
 
 .stars {
-  color: #fbbc04;
+  color: #fbbd04eb;
   font-size: 18px;
   margin-bottom: 10px;
 }
@@ -222,18 +222,20 @@ margin-top: 50px;
 
 }
 .boxstyle{
-  border: 1px solid ;
-box-shadow: whitesmoke;
+  border: 2px solid ;
+box-shadow: rgba(245, 245, 245, 0.833);
 border-radius: 8px;
 margin-right: 0%;
-padding: 15px 65px;
+font-size: 25px;
+padding: 20px 125px 20px 0px;
 
 }
-#message{
-  border: 1px solid;
-  box-shadow: whitesmoke;
+.message{
+  border: 2px solid;
+  box-shadow: rgb(245, 245, 245);
   border-radius: 8px;
-  padding: 15px 45px;
+  padding: 25px 85px 25px 0px;
+  font-size: 25px;
 }
 .btn-primary1{
   background-color: #4E47FF;
@@ -276,4 +278,7 @@ margin: 0 15px;
 }
 .btnsign:hover{
   background-color: #4d47ff8a;
+}
+.LOGO{
+  margin-top: 100px;
 }
