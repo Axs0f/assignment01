@@ -41,6 +41,7 @@ font-size: 15px;
 font-weight: 600px;
 cursor: pointer;
 margin-top: 0%;
+
 }
 .btnsign{
 background-color: #4E47FF;
@@ -123,6 +124,80 @@ margin-top: 50px;
   margin-top: 20px;
   color: gray;
 }
+/* testimonial section */
+
+.testimonials {
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.testimonials h2 {
+  font-size: 2em;
+  color: #1e1e2f;
+  margin-bottom: 40px;
+}
+
+.testimonial-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.card {
+  background-color: white;
+  border-radius: 12px;
+  padding: 20px;
+  width: 300px;
+  text-align: left;
+  box-shadow: 0 0 10px rgba(0,0,0,0.05);
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.stars {
+  color: #fbbc04;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.card h3 {
+  font-size: 18px;
+  margin: 10px 0;
+  color: #1e1e2f;
+}
+
+.card p {
+  color: #444;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.reviewer {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.reviewer img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.reviewer strong {
+  font-size: 14px;
+  color: #333;
+}
+
+.reviewer span {
+  font-size: 12px;
+  color: #888;
+}
+
 /* feedback section */
 .heading-input {
   display: flex;
@@ -189,4 +264,16 @@ footer header{
  /* padding: 20px 0; */
 margin: 0 15px;
   gap: 20px;
+}
+.footer-items a{
+  text-decoration: none;
+}
+.btn-primary:hover{
+  background-color: rgba(0, 0, 0, 0.461);
+}
+.btn-primary1:hover{
+  background-color: #4d47ff91;
+}
+.btnsign:hover{
+  background-color: #4d47ff8a;
 }
